@@ -41,7 +41,7 @@ const services: service[] = [
     {
         name: "AI модель",
         type: "ai",
-        description: "Lorem ipsum dolor sit a met",
+        description: "Разработка и обучение модели с использованием Python",
         price: "От 500$ до 4000$",
         time: "От 1 до 4 месяцев"
     },

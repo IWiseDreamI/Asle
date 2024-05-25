@@ -40,16 +40,16 @@ const projectsData: project[] = [
         users: [users[0]],
         images: ["unitedb&b.jpg"],
         stack: [technologies[0]],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis aliquet odio, id blandit neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; "
+        description: "Сервис по бронированию жилья, специально разработанный для путешественников и профессионалов, работающих в условиях Крайнего Севера."
     },
     {
         id: 2,
         type: "telegram",
-        name: "Языковой бот",
+        name: "Языковой бот спортивной лексики",
         users: [users[0]],
         images: ["coa.jpg"],
         stack: [technologies[0]],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis aliquet odio, id blandit neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;"
+        description: "Языковой телеграм бот, созданный для изучения спортивной лексики на английском языке. Бот помогает быстро и легко освоить терминологию различных видов спорта."
     },
     {
         id: 3,
@@ -58,7 +58,7 @@ const projectsData: project[] = [
         users: [users[0]],
         images: ["queue.jpg"],
         stack: [technologies[0]],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis aliquet odio, id blandit neque. "
+        description: "Cистема для удобного и эффективного распределения электронной очереди, созданная для оптимизации обслуживания клиентов и сокращения времени ожидания.  "
     },
     {
         id: 4,
@@ -67,7 +67,7 @@ const projectsData: project[] = [
         users: [users[0]],
         images: ["zoo.jpg"],
         stack: [technologies[0]],
-        description: "Duis quis aliquet odio, id blandit neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;"
+        description: "Телеграм бот, созданный для посетителей зоопарка. Создан для предоставления актуальной и полезной информацию о животных, маршрутах, мероприятиях и услугах зоопарка."
     },
 ]
 

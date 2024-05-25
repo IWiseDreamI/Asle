@@ -20,10 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${play.className} px-[10vw] bg-neutral-800 text-white overflow-x-hidden`}>
+      <body className={`${play.className} bg-neutral-800 text-white overflow-x-hidden`}>
         <ThemeProvider attribute="class" defaultTheme="dark">
           <Header />
-          <main className="flex flex-col min-h-[88vh] items-center justify-center pt-[20vh]">
+          <main className="flex flex-col px-[10vw] min-h-[100vh] items-center justify-center pt-[8vh]">
             {children}
           </main>
           <Footer />

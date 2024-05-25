@@ -86,8 +86,8 @@ export default function Home() {
 					})}
 				</motion.div>
 			</h1>
-			<motion.div id="page-content" className="flex justify-between mt-[24px] h-[30vh] items-center" variants={content} initial="hidden" animate="visible">
-				<h3 className="w-[40%] text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus condimentum risus, vitae vestibulum felis imperdiet non. Cras luctus orci sed orci pellentesque sagittis.</h3>
+			<motion.div id="page-content" className="flex justify-between mt-[24px] h-[30vh] items-start" variants={content} initial="hidden" animate="visible">
+				<h3 className="w-[40%] text-xl">Мы специализируемся на разработке высококачественного программного обеспечения, которое помогает бизнесу достигать новых высот. Наша команда готова предложить комплексные решения, адаптированные под уникальные потребности вашего бизнеса.</h3>
 				<code id="code-block" className="text-green-500 w-[56%] bg-black h-[100%] p-[16px] outline-none overflow-y-auto text-xs">
 					<pre><Typewriter options={{ loop: true, autoStart: true, strings: codeStrings }} /></pre>
 				</code>
