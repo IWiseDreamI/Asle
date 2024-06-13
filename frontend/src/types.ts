@@ -19,7 +19,8 @@ type technology = {
 
 type user = {
     id: number,
-    name: string,
+    email: string,
+    username: string,
     bio: string,
     image: string,
     stack: technology[]

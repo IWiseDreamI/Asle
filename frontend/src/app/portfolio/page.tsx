@@ -25,7 +25,8 @@ const technologies: technology[] = [
 const users: user[] = [
     {
         id: 1,
-        name: "WiseDream",
+        email: "indifferentsomething@gmail.com",
+        username: "WiseDream",
         bio: "Nevermind",
         image: "cat.png",
         stack: [technologies[0]]
